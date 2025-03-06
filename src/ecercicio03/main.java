@@ -33,7 +33,7 @@ public class main {
 
         //IMPRESSAO DO PONTO MAIS PROXIMO DA ORIGEM
         System.out.println();
-        Pontos aux = p1.maisProximoDaOrigem(p1, p2);
+        Pontos aux = Pontos.maisProximoDaOrigem(p1, p2);
         System.out.println(aux.formatarPonto());
     }
 }
