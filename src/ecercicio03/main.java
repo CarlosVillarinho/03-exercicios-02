@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
+
         DecimalFormat formato = new DecimalFormat( "0.000");
         Scanner entrada = new Scanner(System.in);
 
